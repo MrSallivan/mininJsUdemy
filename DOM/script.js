@@ -1,5 +1,6 @@
 var divs = document.querySelectorAll('div')
 var link = document.querySelector('a')
+var ps = document.querySelectorAll('p')
 
 for (let i = 0; i < divs.length; i++) {
 	divs[i].addEventListener('click', function (e) {
