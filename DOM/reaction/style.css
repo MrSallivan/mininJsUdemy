@@ -1,0 +1,32 @@
+#container {
+	border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+}
+
+.circle {
+	position: absolute;
+	border-radius: 50%;
+	animation: color-change 2s infinite;
+}
+.circle:hover {
+	cursor: pointer;
+}
+
+@keyframes color-change {
+	0% {
+		background-color: red;
+	}
+	25% {
+		background-color: blue;
+	}
+	50% {
+		background-color: green;
+	}
+	75% {
+		background-color: yellow;
+	}
+	100% {
+		background-color: red;
+	}
+}

@@ -1,0 +1,38 @@
+#game {
+	width: 300px;
+	margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 48px;
+	font-weight: bold;
+	border: 1px solid #ccc;
+}
+
+td:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+
+#restart {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: #ccc;
+	border: none;
+	cursor: pointer;
+}
+
+#restart:hover {
+	background-color: #ddd;
+}
