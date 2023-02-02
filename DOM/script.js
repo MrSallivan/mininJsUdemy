@@ -4,10 +4,10 @@ var ps = document.querySelectorAll('p')
 
 for (let i = 0; i < divs.length; i++) {
 	divs[i].addEventListener('click', function (e) {
-		e.stopPropagation()
+		e.stopPropagation() //отмена дефолтного поведения (всплытия)
 		console.log(this.getAttribute('id'))
 
-	}, true)
+	}, false)
 }
 
 link.addEventListener('click', handleLinkClick)
